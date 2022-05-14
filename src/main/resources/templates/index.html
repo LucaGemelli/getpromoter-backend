@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <title>GetPromoter</title>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+    </head>
+    <header>
+
+    </header>
+    <body>
+        <div class="text-center">
+            <img width="200px" src="https://cdn.discordapp.com/attachments/960315930301333637/974931365206302730/tst.png">
+            <h2>Cadastre-se</h2>
+        </div>
+        <form class="container" method="post">
+            <div class="mb-3">
+                <label for="input1" class="form-label">Nome</label>
+                <input type="name" class="form-control" id="input1" name="name" placeholder="John doe">
+            </div>
+            <div class="mb-3">
+                <label for="input2" class="form-label">Telefone:</label>
+                <input class="form-control" id="input2" name="phoneNumber" placeholder="(55)9999-9999">
+            </div>
+            <div class="mb-3">
+                <label for="input3" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="input3" name="email" placeholder="john@doe.com">
+            </div>
+            <div class="mb-3">
+                <label for="input4" class="form-label">Cpf/Cnpj:</label>
+                <input type="text" class="form-control" id="input4" name="document" placeholder="CPF/CNPJ">
+            </div>
+            <div class="mb-3">
+                <label for="input5" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="input5" name="password" placeholder="*****">
+            </div>
+            <div class="d-grid gap-2 col-12 mx-auto">
+                <a class="btn btn-primary" type="submit" href="/success">Salvar</a>
+            </div>
+        </form>
+    </body>
+</html>
